@@ -1,6 +1,11 @@
 body {
-    background-color: #E6E6E6;
-    color: #343A40;
+    background-color: #343A40;
+    color: #E6E6E6;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
 }
 
 .first-con {
@@ -8,11 +13,29 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     position: relative;
-    margin-top: 3%
+    margin-top: 3%;
+    font-family: cursive;
+}
+
+
+.second-con {
+    margin-top: 10rem;
+    font-family: cursive;
+    padding: 4rem 0px;
+}
+
+.third-con {
+    margin-top: 7rem;
+    font-family: cursive;
+}
+
+.fourth-con {
+    padding-top: 7rem;
+    font-family: cursive;
 }
 
 .navbar-brand {
-    font-size: 35px
+    font-size: 35px;
 }
 
 .nav-item {
@@ -25,17 +48,11 @@ body {
     font-size: 260%;
 }
 
-.second-con {
-    padding-top: 80px;
-}
 
 h1 {
-    text-align: center;
+    text-align: left;
 }
 
-.third-con {
-    padding-top: 50px;
-}
 
 .form-group {
     padding-left: 27%
@@ -45,8 +62,8 @@ h1 {
     background-color: #343A40;
     color: #E6E6E6;
     text-align: center;
-    margin-top: 50px;
-    height: 120px;
+    margin: 3rem 0;
+    height: 5px;
 }
 
 .links {
@@ -55,9 +72,38 @@ h1 {
 
 .footer-link {
     padding-right: 20px;
-    padding-left: 20px
+    padding-left: 20px;
+    color: #343A40;
 }
 
-.copyright {
-    padding-top: 20px;
+
+.footer-link:hover {
+    color: #a19b9b;
+    text-decoration: overline;
+}
+
+.nav-link {
+    color: #343A40;
+}
+
+.nav-link:hover {
+    color: #a19b9b;
+    text-decoration: underline
+}
+
+.navbar-brand {
+    color: #343A40;
+}
+
+.navbar-brand:hover {
+    color: #a19b9b;
+    text-decoration: underline
+}
+
+.btn-dark:hover {
+    color: #a19b9b;
+}
+
+.navbar {
+    font-family: cursive;
 }
